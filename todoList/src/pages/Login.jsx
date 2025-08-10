@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import "./Login.css"; // custom styles
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const SERVER_URL = "http://localhost:8080";
+const SERVER_URL =import.meta.env.VITE_SERVER_URL;
 
 export default function Login() {
   const [email, setEmail] = useState("");

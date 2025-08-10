@@ -1,4 +1,4 @@
-const SERVER_URL = "http://localhost:8080";
+const SERVER_URL = import.meta.env.VITE_SERVER_URL;
 
 export const loginUser = async ({ email, password }) => {
   const response = await fetch(`${SERVER_URL}/auth/login`, {

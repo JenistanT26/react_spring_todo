@@ -1,0 +1,11 @@
+.register-card {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
